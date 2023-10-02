@@ -12,6 +12,6 @@ find_package(Matplot++ REQUIRED)
 find_package(GSL REQUIRED)
 
  
-add_executable(out.o naive_integration.cpp)
+add_executable(out.o integrate.cpp)
 
 target_link_libraries(out.o Matplot++::matplot GSL::gsl)
